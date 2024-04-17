@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ContentSpace {
+display: flex;
+justify-content: center;
+flex: 1;
+}

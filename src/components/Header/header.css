@@ -1,0 +1,10 @@
+.Header{
+height: 50px;
+display: flex;
+flex-direction: row;
+width: 100vw;
+justify-content: center;
+align-items: center;
+padding: 4px;
+border-bottom: 1px solid lightgreen;
+}
