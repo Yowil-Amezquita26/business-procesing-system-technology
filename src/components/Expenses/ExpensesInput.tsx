@@ -31,7 +31,10 @@ export  function ExpensesInput({
           : `${currency} ${
               value === undefined
                 ? 0.0
-                : Intl.NumberFormat().format(parseFloat(value))
+                : Intl.NumberFormat("en-US", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  }).format(parseFloat(value))
             }`
       }
       type={"text"}
