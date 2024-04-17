@@ -74,6 +74,7 @@ export function ExpensesTable({data,focusedInput,handleFocus,handleEdit,handleTo
     dataSource={filteredData}
     pagination={false}
     bordered
+    style={{padding:"20px"}}
     />
   )
 }
