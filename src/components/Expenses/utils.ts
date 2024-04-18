@@ -1,5 +1,4 @@
 import { EXPENSE } from "@/types";
-import { Dispatch, SetStateAction } from "react";
 
 function calculateTotals (tableData: EXPENSE[]){
     const totals: EXPENSE[] = tableData.filter(

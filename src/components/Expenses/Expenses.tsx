@@ -1,9 +1,8 @@
 "use client";
-import { Form, Input, InputNumber, Table } from "antd";
+import { Form} from "antd";
 import { useState } from "react";
 import expenses from "./expenses.json";
 import { EXPENSE } from "@/types";
-import { ExpensesInput } from "./ExpensesInput";
 import { ExpensesTable } from "./ExpensesTable";
 import { calculateTotals } from "./utils";
 

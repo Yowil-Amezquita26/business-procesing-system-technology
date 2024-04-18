@@ -1,6 +1,6 @@
 import { EXPENSE } from "@/types";
 import { Input } from "antd";
-import React, { useState } from "react";
+import React from "react";
 
 interface ExpensesInputProps{
     record: EXPENSE;
