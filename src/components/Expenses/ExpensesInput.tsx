@@ -30,7 +30,7 @@ export  function ExpensesInput({
           ? value
           : `${currency} ${
               value === undefined
-                ? 0.0
+                ? "0.00"
                 : Intl.NumberFormat("en-US", {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,
